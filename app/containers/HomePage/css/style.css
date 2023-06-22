@@ -3,11 +3,11 @@
     --primary: #00B98E;
     --secondary: #FF6922;
     --light: #EFFDF5;
-    --dark: #0E2E50;
+    --dark:  #0E2E50;
 }
 :global{
   --bs-blue: #00B98E;
-  btn-primary: #00B98E;
+  --btn-primary: #00B98E;
 }
 
 .back-to-top {

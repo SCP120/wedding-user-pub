@@ -315,7 +315,7 @@ export default function CartPage() {
                       <span>Total</span> $247.00
                     </li>
                   </ul>
-                  <a href="cart-2.html" className="btn_1 full-width cart">
+                  <a href="/thanh-toan" className="btn_1 full-width cart">
                     Proceed to Checkout
                   </a>
                 </div>

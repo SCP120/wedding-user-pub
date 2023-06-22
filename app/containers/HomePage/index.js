@@ -197,7 +197,7 @@ export function HomePage({
                   with wedding planning, offering support and guidance every step of
                   the way.
                 </p>
-                <a href='' className='btn btn-primary py-3 px-5 me-3 animated fadeIn'>
+                <a href='/danh-sach' className='btn btn-primary py-3 px-5 me-3 animated fadeIn'>
                   Get Started
                 </a>
               </div>
@@ -387,7 +387,7 @@ export function HomePage({
                     <i className='fa fa-check text-primary me-3' />
                     Create the perfect setting for your wedding celebration
                   </p>
-                  <a className='btn btn-primary py-3 px-5 mt-3' href=''>
+                  <a className='btn btn-primary py-3 px-5 mt-3' href='/danh-sach'>
                     Read More
                   </a>
                 </div>
@@ -420,7 +420,7 @@ export function HomePage({
                       <a
                         className='btn btn-outline-primary active'
                         data-bs-toggle='pill'
-                        href='#tab-1'
+                        href='/danh-sach'
                       >
                         Featured
                       </a>
@@ -437,7 +437,7 @@ export function HomePage({
                     >
                       <div className='property-item rounded overflow-hidden'>
                         <div className='position-relative overflow-hidden'>
-                          <a href=''>
+                          <a href='/chi-tiet'>
                             <img
                               className='img-fluid'
                               src={require('../HomePage/img/property-1.jpg')}
@@ -454,7 +454,7 @@ export function HomePage({
                         </div>
                         <div className='p-4 pb-0'>
                           <h5 className='text-primary mb-3'>$12,345</h5>
-                          <a className='d-block h5 mb-2' href=''>
+                          <a className='d-block h5 mb-2' href='/chi-tiet'>
                             Exquisite Catering Experience
                           </a>
                           <p>
@@ -484,7 +484,7 @@ export function HomePage({
                     >
                       <div className='property-item rounded overflow-hidden'>
                         <div className='position-relative overflow-hidden'>
-                          <a href=''>
+                          <a href='/chi-tiet'>
                             <img
                               className='img-fluid'
                               src={require('../HomePage/img/property-2.jpg')}
@@ -501,7 +501,7 @@ export function HomePage({
                         </div>
                         <div className='p-4 pb-0'>
                           <h5 className='text-primary mb-3'>$9,999</h5>
-                          <a className='d-block h5 mb-2' href=''>
+                          <a className='d-block h5 mb-2' href='/chi-tiet'>
                             Gourmet Dining Experience
                           </a>
                           <p>
@@ -531,7 +531,7 @@ export function HomePage({
                     >
                       <div className='property-item rounded overflow-hidden'>
                         <div className='position-relative overflow-hidden'>
-                          <a href=''>
+                          <a href='/chi-tiet'>
                             <img
                               className='img-fluid'
                               src={require('../HomePage/img/property-3.jpg')}
@@ -548,7 +548,7 @@ export function HomePage({
                         </div>
                         <div className='p-4 pb-0'>
                           <h5 className='text-primary mb-3'>$7,777</h5>
-                          <a className='d-block h5 mb-2' href=''>
+                          <a className='d-block h5 mb-2' href='/chi-tiet'>
                             International Cuisine Delights
                           </a>
                           <p>
@@ -578,7 +578,7 @@ export function HomePage({
                     >
                       <div className='property-item rounded overflow-hidden'>
                         <div className='position-relative overflow-hidden'>
-                          <a href=''>
+                          <a href='/chi-tiet'>
                             <img
                               className='img-fluid'
                               src={require('../HomePage/img/property-1.jpg')}
@@ -595,7 +595,7 @@ export function HomePage({
                         </div>
                         <div className='p-4 pb-0'>
                           <h5 className='text-primary mb-3'>$12,345</h5>
-                          <a className='d-block h5 mb-2' href=''>
+                          <a className='d-block h5 mb-2' href='/chi-tiet'>
                             Exquisite Catering Experience
                           </a>
                           <p>
@@ -625,7 +625,7 @@ export function HomePage({
                     >
                       <div className='property-item rounded overflow-hidden'>
                         <div className='position-relative overflow-hidden'>
-                          <a href=''>
+                          <a href='/chi-tiet'>
                             <img
                               className='img-fluid'
                               src={require('../HomePage/img/property-2.jpg')}
@@ -642,7 +642,7 @@ export function HomePage({
                         </div>
                         <div className='p-4 pb-0'>
                           <h5 className='text-primary mb-3'>$9,999</h5>
-                          <a className='d-block h5 mb-2' href=''>
+                          <a className='d-block h5 mb-2' href='/chi-tiet'>
                             Gourmet Dining Experience
                           </a>
                           <p>
@@ -672,7 +672,7 @@ export function HomePage({
                     >
                       <div className='property-item rounded overflow-hidden'>
                         <div className='position-relative overflow-hidden'>
-                          <a href=''>
+                          <a href='/chi-tiet'>
                             <img
                               className='img-fluid'
                               src={require('../HomePage/img/property-3.jpg')}
@@ -689,7 +689,7 @@ export function HomePage({
                         </div>
                         <div className='p-4 pb-0'>
                           <h5 className='text-primary mb-3'>$7,777</h5>
-                          <a className='d-block h5 mb-2' href=''>
+                          <a className='d-block h5 mb-2' href='/chi-tiet'>
                             International Cuisine Delights
                           </a>
                           <p>
@@ -728,7 +728,7 @@ export function HomePage({
                     <div className='col-lg-4 col-md-6'>
                       <div className='property-item rounded overflow-hidden'>
                         <div className='position-relative overflow-hidden'>
-                          <a href=''>
+                          <a href='/chi-tiet'>
                             <img
                               className='img-fluid'
                               src={require('../HomePage/img/property-1.jpg')}
@@ -745,7 +745,7 @@ export function HomePage({
                         </div>
                         <div className='p-4 pb-0'>
                           <h5 className='text-primary mb-3'>$12,345</h5>
-                          <a className='d-block h5 mb-2' href=''>
+                          <a className='d-block h5 mb-2' href='/chi-tiet'>
                             Golden Urban House For Sell
                           </a>
                           <p>
@@ -787,7 +787,7 @@ export function HomePage({
                         </div>
                         <div className='p-4 pb-0'>
                           <h5 className='text-primary mb-3'>$12,345</h5>
-                          <a className='d-block h5 mb-2' href=''>
+                          <a className='d-block h5 mb-2' href='/chi-tiet'>
                             Golden Urban House For Sell
                           </a>
                           <p>
@@ -812,7 +812,7 @@ export function HomePage({
                     <div className='col-lg-4 col-md-6'>
                       <div className='property-item rounded overflow-hidden'>
                         <div className='position-relative overflow-hidden'>
-                          <a href=''>
+                          <a href='/chi-tiet'>
                             <img
                               className='img-fluid'
                               src={require('../HomePage/img/property-3.jpg')}
@@ -978,7 +978,7 @@ export function HomePage({
                       </div>
                     </div>
                     <div className='col-12 text-center'>
-                      <a className='btn btn-primary py-3 px-5' href=''>
+                      <a className='btn btn-primary py-3 px-5' href='/danh-sach'>
                         Browse More Property
                       </a>
                     </div>

@@ -277,7 +277,7 @@ export default function FeaturePage() {
                         </div>
                         <div className="col-lg-5 col-md-6">
                           <div className="btn_add_to_cart">
-                            <a href="#0" className="btn_1">
+                            <a href="/gio-hang" className="btn_1">
                               Add to Cart
                             </a>
                           </div>
@@ -537,7 +537,7 @@ export default function FeaturePage() {
                         </div>
                         {/* /row */}
                         <p className="text-end">
-                          <a href="leave-review.html" className="btn_1">
+                          <a href="/review" className="btn_1">
                             Leave a review
                           </a>
                         </p>

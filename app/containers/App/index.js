@@ -9,7 +9,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
-import { Switch, Route } from 'react-router-dom';
+import { BrowserRouter,Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
 import FeaturePage from 'containers/FeaturePage/Loadable';
@@ -43,16 +43,19 @@ export default function App() {
         <meta name="description" content="A React.js Boilerplate application" />
       </Helmet>
       <Header />
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/chi-tiet" component={FeaturePage} />
-        <Route path="/danh-sach" component={ListPage} />
-        <Route path="/gio-hang" component={CartPage} />
-        <Route path="/thanh-toan" component={CheckoutPage} />
-        <Route path="/dang-nhap" component={LoginPage} />
-        <Route path="/review" component={ReviewPage} />
-        <Route path="" component={NotFoundPage} />
-      </Switch>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/chi-tiet" component={FeaturePage} />
+          <Route path="/danh-sach" component={ListPage} />
+          <Route path="/gio-hang" component={CartPage} />
+          <Route path="/thanh-toan" component={CheckoutPage} />
+          <Route path="/dang-nhap" component={LoginPage} />
+          <Route path="/review" component={ReviewPage} />
+          <Route path="" component={NotFoundPage} />
+        </Switch>
+      </BrowserRouter>
+
       <Footer />
       <GlobalStyle />
     </AppWrapper>
