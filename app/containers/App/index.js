@@ -18,6 +18,11 @@ import Header from 'components/Header';
 import Footer from 'components/Footer';
 
 import GlobalStyle from '../../global-styles';
+import ListPage from 'containers/ListPage/Loadable';
+import CartPage from 'containers/CartPage/Loadable';
+import CheckoutPage from 'containers/CheckoutPage/Loadable';
+import LoginPage from 'containers/LoginPage/Loadable';
+import ReviewPage from 'containers/ReviewPage/Loadable';
 
 const AppWrapper = styled.div`
   //max-width: calc(768px + 16px * 2);
@@ -40,7 +45,12 @@ export default function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/features" component={FeaturePage} />
+        <Route path="/chi-tiet" component={FeaturePage} />
+        <Route path="/danh-sach" component={ListPage} />
+        <Route path="/gio-hang" component={CartPage} />
+        <Route path="/thanh-toan" component={CheckoutPage} />
+        <Route path="/dang-nhap" component={LoginPage} />
+        <Route path="/review" component={ReviewPage} />
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />

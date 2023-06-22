@@ -11,7 +11,7 @@ const ngrok =
   (isDev && process.env.ENABLE_TUNNEL) || argv.tunnel
     ? require('ngrok')
     : false;
-const { resolve } = require('path');
+const { resolve, join} = require('path');
 const app = express();
 
 // If you need a backend, e.g. an API, add your custom backend-specific middleware here
@@ -33,6 +33,12 @@ app.get('*.js', (req, res, next) => {
   req.url = req.url + '.gz'; // eslint-disable-line
   res.set('Content-Encoding', 'gzip');
   next();
+});
+
+app.use(express.static(__dirname)); // here is important thing - no static directory, because all static :)
+
+app.get('/*', function(req, res) {
+  res.sendFile(join(__dirname, 'index.html'));
 });
 
 // Start your app.
